@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("../fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+:root {
+  /* Colors */
+  --primary-clr: #f4d04e;
+  --card-bg: #ffffff;
+  --text-clr-1: #111111;
+  --text-clr-2: #6b6b6b;
+
+  /* Typografy */
+  --font-b-lg: 800 1.5rem/1.5 "Figtree", sans-serif;
+  --font-m-md: 400 1rem/1.5 "Figtree", sans-serif;
+  --font-m-sm: 400 0.875rem/1.5 "Figtree", sans-serif;
+  --font-b-sm: 800 0.875rem/1.5 "Figtree", sans-serif;
+
+  /* Spacing*/
+  --spacing-1: 1.5rem;
+  --spacing-2: 0.75rem;
+  --spacing-3: 0.5rem;
+  --spacing-4: 0.25rem;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+  --radius-circle: 50%;
+
+  /* Shadown */
+  --shadow-bg: 8px 8px 0 0 #000000;
+
+  /* Border */
+  --border-card: 1px solid #000000;
+}
