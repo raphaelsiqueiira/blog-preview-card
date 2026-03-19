@@ -4,7 +4,8 @@ h1,
 p,
 span,
 picture,
-img {
+img,
+main {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,7 +17,7 @@ img {
   height: auto;
 }
 
-body {
+main {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -45,7 +46,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-2);
-  max-width: 336px;
+  max-width: 21rem;
   align-items: flex-start;
 }
 
@@ -66,6 +67,14 @@ body {
   color: var(--text-clr-1);
   font: var(--font-b-lg);
   transition: 0.4s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card__title {
+    transition: 0s;
+    transition-duration: 0s;
+    transition-property: none;
+  }
 }
 
 .card__title:hover {
